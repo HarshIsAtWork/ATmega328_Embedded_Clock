@@ -2,93 +2,147 @@
 
 # H328
 
-### A custom ATmega328 development board, built into a desk clock.
+### A custom ATmega328 development board turned into a fully featured desk clock.
 
-H328 is a custom development board designed around the **ATmega328**, with its first job being a simple desk clock.
+H328 is a **custom ATmega328-based development board** that I designed and built into a standalone desk clock.
 
-Instead of using an Arduino UNO, I designed the board myself — including the PCB, connections, and a **2×3 ICSP programming header** that is directly compatible with the Arduino UNO programming interface.
+It combines a custom PCB, **DS3231 real-time clock**, IR remote control, custom menus, calendar, Pomodoro timer, WS2812B lighting, and a rechargeable **18650 battery with a 5V boost supply** into one compact device.
 
-The result is a small, reusable ATmega328 platform that can be used for much more than just a clock.
-
----
-
-## What makes H328 interesting?
-
-The main idea behind H328 was simple:
-
-> **Why use an Arduino board when you can build your own?**
-
-The board keeps the familiar ATmega328 architecture while giving me complete control over the hardware.
-
-### Key features
-
-* **ATmega328-based** custom development board
-* Custom PCB designed from scratch
-* **2×3 ICSP programming header**
-* Directly compatible with the **Arduino UNO ICSP interface**
-* Used as the platform for a functional desk clock
-* Designed to be reusable for future ATmega328 projects
+The goal was simple: build a desk clock that actually feels like a proper gadget, while designing the hardware behind it myself.
 
 ---
 
-## The Desk Clock
+## What can it do?
 
-The first application for H328 is a standalone desk clock.
+H328 is much more than a basic clock.
 
-Building the clock gave me a practical way to test the board rather than simply checking whether the ATmega328 could run a basic program.
+### Clock & Calendar
 
-It also makes H328 an actual usable device instead of another development board that ends up in a drawer.
+* Accurate timekeeping with the **DS3231 RTC**
+* Date and calendar display
+* Custom on-screen menus
+* Easy navigation through the different functions
+
+### Productivity
+
+* **Pomodoro timer** for focused work sessions
+* Dedicated timer functionality
+* Designed to stay on the desk and be useful throughout the day
+
+### Lighting
+
+* Built-in **WS2812B RGB lighting**
+* Custom lighting effects
+* Can be used as ambient desk lighting or as part of the clock's interface
+
+### Remote Control
+
+* Built-in **IR receiver**
+* Control the clock without having to reach for it
+* Opens the door for additional remote-controlled features
+
+### Portable Power
+
+H328 isn't tied to a wall outlet.
+
+* Rechargeable **18650 lithium-ion cell**
+* **5V boost converter** for powering the system
+* Designed to work as a standalone desk device
+
+---
+
+## The Hardware
+
+At the heart of H328 is the **ATmega328**.
+
+But rather than putting it on an Arduino UNO, I designed my own development board around it.
+
+The board includes a custom **2×3 ICSP programming header**, making it directly compatible with the programming interface used by the Arduino UNO.
+
+This means the board can be programmed and reused for other ATmega328 projects instead of being locked into being just a clock.
+
+### Main hardware
+
+| Component           | Purpose                            |
+| ------------------- | ---------------------------------- |
+| **ATmega328**       | Main controller                    |
+| **DS3231 RTC**      | Accurate time and date             |
+| **IR Receiver**     | Wireless control                   |
+| **WS2812B LEDs**    | RGB lighting and effects           |
+| **18650 Cell**      | Rechargeable power source          |
+| **5V Boost Module** | Provides the required 5V supply    |
+| **2×3 ICSP Header** | Arduino UNO-compatible programming |
+
+---
+
+## The Software
+
+The software was built specifically for H328 rather than relying on a generic clock interface.
+
+It has a custom menu system that brings the different functions together in one interface.
+
+The current software includes:
+
+* Clock
+* Calendar
+* Timers
+* Pomodoro
+* Custom menus
+* IR remote control
+* WS2812B lighting control
+
+The idea is to make the device feel like a small dedicated product rather than a microcontroller demo.
 
 ---
 
 ## Why I built it
 
-I've used plenty of Arduino boards, but H328 was about understanding what goes into making one.
+I've built plenty of projects using development boards.
 
-Designing the board meant working out how the ATmega328 should be connected, designing the PCB, adding the programming interface, and then putting the finished board to work.
+H328 was an attempt to flip that around.
 
-The desk clock is just the beginning.
+Instead of starting with an Arduino UNO and building something on top of it, I started with the **ATmega328 itself** and designed the board I actually wanted.
 
----
+Then I used that board to build something useful.
 
-## Hardware
-
-| Part                | Purpose                   |
-| ------------------- | ------------------------- |
-| **ATmega328**       | Main microcontroller      |
-| **2×3 ICSP Header** | Programming the ATmega328 |
-| **Clock display**   | Displays the current time |
-| **Custom PCB**      | Holds everything together |
+The desk clock became a way to test the hardware, software, power system, user interface, and all the little details that come with making a complete standalone device.
 
 ---
 
-## Future Plans
+## What's next?
 
-H328 is designed to be reusable, so the clock doesn't have to be its final form.
+H328 was designed to be reusable, so the clock is only its first application.
 
-Some possible future upgrades:
+Future versions could bring:
 
-* Additional sensors
-* More display options
+* A cleaner and smaller PCB
 * Better power management
-* Custom enclosure
-* More I/O brought out to headers
-* Other ATmega328-based projects
+* More sensors
+* Additional display features
+* More lighting effects
+* A custom enclosure
+* More ATmega328 projects built around the same board
 
 ---
 
 ## Project Status
 
 **Status:** Functional
-**Platform:** Custom ATmega328 Development Board
+**Controller:** ATmega328
+**RTC:** DS3231
+**Lighting:** WS2812B
+**Power:** Rechargeable 18650 + 5V boost
 **Programming:** 2×3 ICSP
-**Compatibility:** Arduino UNO ICSP
+**Control:** IR Remote
 
 ---
 
-### Built from scratch.
+## Built, not bought.
 
-**H328** started as a development board and became a desk clock.
-Now it has an excuse to become several other things.
+H328 started as a custom ATmega328 development board.
+
+It ended up becoming a clock, calendar, Pomodoro timer, remote-controlled gadget, RGB desk light, and a pretty good excuse to design another PCB.
+
+**And that's probably not the last thing it's going to become.**
 
 ---
