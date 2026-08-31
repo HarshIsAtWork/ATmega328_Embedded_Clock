@@ -19,28 +19,40 @@ H328 is much more than a basic clock.
 ### Clock & Calendar
 
 * Accurate timekeeping with the **DS3231 RTC**
+* <img width="1600" height="720" alt="home" src="https://github.com/user-attachments/assets/dc73c7ab-3d13-4ecf-92d5-2826d183c8b2" />
+
 * Date and calendar display
 * Custom on-screen menus
+* <img width="1600" height="720" alt="alarm" src="https://github.com/user-attachments/assets/d15fdd1a-4101-4514-a425-6c982bc9e530" />
+
 * Easy navigation through the different functions
 
 #### clock 
 <img width="1600" height="720" alt="home" src="https://github.com/user-attachments/assets/98bc313c-1ad4-4b4c-acbd-8b21fd1c7ee3" />
 #### calendar
-<img width="1600" height="720" alt="calendar" src="https://github.com/user-attachments/assets/2e54e041-4f5e-4044-8b3b-d46cccab3922" />
 <img width="1600" height="720" alt="calendarrr" src="https://github.com/user-attachments/assets/c3af3928-e145-470d-9ec1-76b667bb0a38" />
-
+<img width="1600" height="720" alt="calendar" src="https://github.com/user-attachments/assets/2e54e041-4f5e-4044-8b3b-d46cccab3922" />
 
 
 ### Productivity
 
 * **Pomodoro timer** for focused work sessions
+* <img width="1600" height="720" alt="pomodoro" src="https://github.com/user-attachments/assets/9ef05575-57fb-45ec-b5e2-3effdbf22da4" />
+<img width="1600" height="720" alt="pomo_menu" src="https://github.com/user-attachments/assets/53f7eb0e-2347-43a0-9f80-d0d385fe337a" />
+<img width="1600" height="720" alt="pomo" src="https://github.com/user-attachments/assets/ad89a92e-4426-4bce-b6ef-5c16fad6d81a" />
+
+
 * Dedicated timer functionality
 * Designed to stay on the desk and be useful throughout the day
 
 ### Lighting
 
 * Built-in **WS2812B RGB lighting**
+* <img width="1600" height="720" alt="ledcolor" src="https://github.com/user-attachments/assets/0b1100d6-5be5-4abf-989e-3ec5d82f69fb" />
+
 * Custom lighting effects
+* <img width="1600" height="720" alt="ledcolormenu" src="https://github.com/user-attachments/assets/aabd4b6c-df42-493c-9919-e2bcf9865abe" />
+
 * Can be used as ambient desk lighting or as part of the clock's interface
 
 ### Remote Control
