@@ -23,6 +23,14 @@ H328 is much more than a basic clock.
 * Custom on-screen menus
 * Easy navigation through the different functions
 
+#### clock 
+<img width="1600" height="720" alt="home" src="https://github.com/user-attachments/assets/98bc313c-1ad4-4b4c-acbd-8b21fd1c7ee3" />
+#### calendar
+<img width="1600" height="720" alt="calendar" src="https://github.com/user-attachments/assets/2e54e041-4f5e-4044-8b3b-d46cccab3922" />
+<img width="1600" height="720" alt="calendarrr" src="https://github.com/user-attachments/assets/c3af3928-e145-470d-9ec1-76b667bb0a38" />
+
+
+
 ### Productivity
 
 * **Pomodoro timer** for focused work sessions
