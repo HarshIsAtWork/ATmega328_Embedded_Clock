@@ -49,6 +49,11 @@ H328 isn't tied to a wall outlet.
 * **5V boost converter** for powering the system
 * Designed to work as a standalone desk device
 
+### 30 SEC SLEEP
+* the device sleeps after 30 sec of inactivity to dramatically improve battery life
+* battery can last upto one week. (tested)
+* although it can vary upon usage.
+
 ---
 
 ## The Hardware
